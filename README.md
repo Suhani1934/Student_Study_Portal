@@ -52,5 +52,5 @@ The portal includes the following 8 main sections:
    python manage.py runserver
    
 5. **Open your browser:**
-   ```bash
+   ```cpp
    http://127.0.0.1:8000/
