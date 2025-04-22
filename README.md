@@ -29,28 +29,49 @@ The portal includes the following 8 main sections:
 - **Database**: SQLite
 - **APIs**: YouTube, Wikipedia, Dictionary, Google Books
 
+## Authentication
+
+The portal features a secure login authentication system to ensure that each student has personalized access to their data and the platform's features.
+
+## ☺️Getting Started🥳
+
+To run this project locally, follow these steps:
+
 ## 🛠️ Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Suhani1934/student-study-portal.git
-   cd student-study-portal
-   
-2. **Create a virtual environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   # On Windows:
-   venv\Scripts\activate
-   
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Suhani1934/student-study-portal.git
+    cd student-study-portal
+    ```
 
-4. **Run the development server:**
-   ```bash
-   python manage.py runserver
-   
-5. **Open your browser:**
-   ```cpp
-   http://127.0.0.1:8000/
+2.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Linux/macOS
+    venv\Scripts\activate  # On Windows
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Make migrations:**
+    ```bash
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
+
+5.  **Create a superuser (for admin access):**
+    ```bash
+    python manage.py createsuperuser
+    ```
+    Follow the prompts to create an administrator account.
+
+6.  **Run the development server:**
+    ```bash
+    python manage.py runserver
+    ```
+
+7.  **Access the portal:** Open your web browser and navigate to `http://127.0.0.1:8000/`.
