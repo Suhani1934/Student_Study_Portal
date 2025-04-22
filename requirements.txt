@@ -1,0 +1,17 @@
+# Django Web Framework
+Django>=4.2
+
+# For API requests (YouTube, Dictionary, Books)
+requests
+
+# Wikipedia summary search
+wikipedia
+
+# Google APIs (Books, YouTube)
+youtube-search-python
+
+# using crispy forms in templates
+django-crispy-forms
+
+# using Bootstrap 4 with crispy forms
+crispy-bootstrap4
